@@ -30,7 +30,7 @@ Projeyi bilgisayarınıza klonlayın ve çalıştırın:
 git clone https://github.com/mehmetakyurek10/Counter
 
 # Proje dizinine girin
-cd REPO_ADINIZ
+cd Counter
 
 # Bağımlılıkları yükleyin
 npm install
