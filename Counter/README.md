@@ -14,16 +14,6 @@ Bu uygulama sadece sayı saymaz, aynı zamanda kullanıcı deneyimini (UX) artı
 - **📜 İşlem Geçmişi (History Log):** Son yapılan 3 işlemin (Arttırma, Azaltma, Sıfırlama) listesini tutar.
 - **🎨 Dinamik Arayüz:** Sayının durumuna (0, pozitif) ve kilit durumuna göre değişen renkler ve imleçler.
 
-## 🎮 Kontroller (Klavye Kısayolları)
-
-Uygulamayı klavye ile hızlıca yönetebilirsiniz:
-
-| Tuş            | İşlev                      |
-| :------------- | :------------------------- |
-| **Sağ Ok (➡)** | Sayacı Arttırır            |
-| **Sol Ok (⬅)** | Sayacı Azaltır             |
-| **ESC**        | Sayacı ve Geçmişi Sıfırlar |
-
 ## 🛠️ Kullanılan Teknolojiler
 
 - **React (Hooks):** `useState`, `useEffect`
