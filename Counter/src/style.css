@@ -1,0 +1,52 @@
+.plus-minus-result-div {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px; 
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row; 
+  gap: 10px; 
+}
+p{
+    font-size: 24px;
+}
+.btn-group button{
+    padding: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border-radius: 30px;
+}
+.btn-group button:hover{
+    transform: scale(1.2);
+    background-color: blueviolet;
+    color: yellow;
+    
+}
+body{
+    background-color: #555;
+    overflow: hidden; 
+}
+.btn-reset{
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.btn-reset:hover{
+    transform: scale(1.2);
+    background-color: yellow;
+    color: blueviolet;
+}
+/* style.css dosyasına eklenecek */
+.btn-group button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none; 
+    background-color: #ccc; 
+    color: #666;
+}
